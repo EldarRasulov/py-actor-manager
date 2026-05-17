@@ -59,4 +59,3 @@ class ActorManager:
         cursor = self.connection.cursor()
         cursor.execute(query, (pk,))
         self.connection.commit()
-
